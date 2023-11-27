@@ -11,9 +11,9 @@ public class numerosAleatorios {
         Random random = new Random();
 
         // Mostramos 20 números aleatorios entre 1 y 10
-        System.out.println("20 números aleatorios entre 1 y 10:");
+        System.out.println("30 números aleatorios entre 1 y 10:");
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 30; i++) {
             int numeroAleatorio = random.nextInt(10) + 1; // Genera un número entre 1 y 10
             System.out.print(numeroAleatorio + " ");
         }
